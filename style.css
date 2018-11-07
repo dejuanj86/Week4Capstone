@@ -1,0 +1,43 @@
+/* Fonts from Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  width: auto;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px;
+  font-size: 30px;
+  margin: 30px;
+  color: blue;
+  flex: auto;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: blue;
+  color: orange;
+  text-align: center;
+  font-size: 25px;
+  width: auto;
+  transition: all 0.5s;
+}
+
+#getInventory {
+  padding: 5px;
+  background-color: grey;
+  width: auto;
+}
+
+#cart {
+  padding: 5px;
+  background-color: skyblue;
+  width: auto;
+}
+
+#total {
+  padding: 5px;
+  background-color: red;
+  width: auto;
+}

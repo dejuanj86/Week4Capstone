@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Welcome to Juan's Grocery Store</h1>
+
+  <div>
+    <p id="getInventory">
+      Cereal - $3.99
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[0]); addToTotal(price[0])">
+      <br><br>
+      Milk - $1.79
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[1]); addToTotal(price[1])">
+      <br><br>
+      Bananas - $1.99
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[2]); addToTotal(price[2])">
+      <br><br>
+      Dish Soap - $2.79
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[3]); addToTotal(price[3])">
+      Bread - $1.89
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[0]); addToTotal(price[4])">
+      <br><br>
+    </p>
+  </div>
+
+  <div id="cart">
+    <p> You added: </p>
+    <p id="cartbox"></p>
+  </div>
+
+  <div id="total">
+    <p> Your total (with tax) is: </p>
+    <p id="totalbox"></p>
+  </div>
+
+    <script src="script.js"> </script>
+  </body>
+</html>
